@@ -23,7 +23,8 @@ public abstract class AbstractSettingsActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        switchBar = (SwitchBar) findViewById(R.id.switch_bar);
+        switchBar = findViewById(R.id.switch_bar);
+        
 
         customBarContainer = (ViewGroup) findViewById(R.id.custom_bar);
         if (customBarLayout != 0) {

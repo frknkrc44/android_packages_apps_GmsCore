@@ -21,7 +21,7 @@ import android.os.Bundle;
 import androidx.appcompat.widget.SwitchCompat;
 
 public abstract class SwitchBarResourceSettingsFragment extends ResourceSettingsFragment implements SwitchBar.OnSwitchChangeListener {
-    protected SwitchBar switchBar;
+    //protected SwitchBar switchBar;
     private SwitchCompat switchCompat;
     private boolean listenerSetup = false;
 

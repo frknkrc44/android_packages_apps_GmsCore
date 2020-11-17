@@ -74,7 +74,7 @@ public class SwitchBar extends LinearLayout implements CompoundButton.OnCheckedC
             mTextView.setImportantForAccessibility(IMPORTANT_FOR_ACCESSIBILITY_NO);
         }
         mLabel = getResources().getString(R.string.abc_capital_off);
-        mSummarySpan = new TextAppearanceSpan(context, androidx.appcompat.R.style.TextAppearance_AppCompat_Widget_Switch);
+        mSummarySpan = new TextAppearanceSpan(context, android.R.style.TextAppearance_Material_Widget_TextView);
         updateText();
 
         mSwitch = (ToggleSwitch) findViewById(R.id.switch_widget);
